@@ -1,0 +1,35 @@
+# ================================
+# DTicket - Configuration
+# ================================
+
+# Type de stockage : "local" (fichiers YAML) ou "mysql"
+storage:
+  type: local
+
+  mysql:
+    host: localhost
+    port: 3306
+    database: dticket
+    username: root
+    password: ""
+    useSSL: false
+
+limits:
+  # Nombre maximum de tickets non fermés (ouverts ou répondus) qu'un joueur
+  # peut avoir en même temps, pour éviter le spam de /dticket.
+  max-open-tickets-per-player: 3
+
+# Webhook Discord (optionnel). Laisse vide pour désactiver.
+# Crée un webhook dans les paramètres d'un salon Discord (Intégrations ->
+# Webhooks -> Nouveau webhook) et colle son URL ici.
+discord:
+  webhook-url: ""
+  notify-on-create: true
+  notify-on-reply: true
+  notify-on-close: true
+
+# Intégration DAPI (sans effet si DAPI ou FactionService ne sont pas installés)
+integration:
+  # Affiche la faction du joueur (via FactionService/DFaction) dans le détail
+  # d'un ticket côté GUI admin, si disponible.
+  show-faction-in-admin-gui: true

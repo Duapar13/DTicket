@@ -1,0 +1,23 @@
+name: DTicket
+version: '${project.version}'
+main: com.dticket.DTicket
+api-version: '26.1'
+author: Duapar
+description: Système de tickets de support in-game (cheat, bug, question, suggestion, report) avec GUI et webhook Discord.
+softdepend: [DAPI]
+
+permissions:
+  dticket.use:
+    description: Autorise la création et la consultation de ses propres tickets.
+    default: true
+  dticket.admin:
+    description: Autorise la gestion des tickets de tous les joueurs (GUI admin, réponse, fermeture).
+    default: op
+
+commands:
+  dticket:
+    description: Ouvre/gère les tickets de support.
+    usage: /dticket <cheat|bug|question|suggestion|report> <message> | admin | reply <id> <message> | close <id> | help
+  ticket:
+    description: Consulte tes propres tickets.
+    usage: /ticket
