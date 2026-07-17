@@ -1,4 +1,4 @@
-package com.dticket.model;
+package com.duapar.dticket.model;
 
 import java.util.UUID;
 

@@ -1,9 +1,9 @@
-package com.dticket.manager;
+package com.duapar.dticket.manager;
 
-import com.dticket.model.Ticket;
-import com.dticket.model.TicketStatus;
-import com.dticket.model.TicketType;
-import com.dticket.storage.TicketStorage;
+import com.duapar.dticket.model.Ticket;
+import com.duapar.dticket.model.TicketStatus;
+import com.duapar.dticket.model.TicketType;
+import com.duapar.dticket.storage.TicketStorage;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

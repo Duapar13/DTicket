@@ -1,6 +1,6 @@
 name: DTicket
 version: '${project.version}'
-main: com.dticket.DTicket
+main: com.duapar.dticket.DTicket
 api-version: '26.1'
 author: Duapar
 description: Système de tickets de support in-game (cheat, bug, question, suggestion, report) avec GUI et webhook Discord.

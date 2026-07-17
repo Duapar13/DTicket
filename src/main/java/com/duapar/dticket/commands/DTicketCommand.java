@@ -1,13 +1,13 @@
-package com.dticket.commands;
+package com.duapar.dticket.commands;
 
-import com.dticket.discord.DiscordWebhook;
-import com.dticket.gui.TicketGuiBuilder;
-import com.dticket.integration.DAPIHook;
-import com.dticket.manager.TicketException;
-import com.dticket.manager.TicketManager;
-import com.dticket.model.Ticket;
-import com.dticket.model.TicketType;
-import com.dticket.util.Msg;
+import com.duapar.dticket.discord.DiscordWebhook;
+import com.duapar.dticket.gui.TicketGuiBuilder;
+import com.duapar.dticket.integration.DAPIHook;
+import com.duapar.dticket.manager.TicketException;
+import com.duapar.dticket.manager.TicketManager;
+import com.duapar.dticket.model.Ticket;
+import com.duapar.dticket.model.TicketType;
+import com.duapar.dticket.util.Msg;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

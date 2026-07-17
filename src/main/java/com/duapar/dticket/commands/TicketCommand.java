@@ -1,9 +1,9 @@
-package com.dticket.commands;
+package com.duapar.dticket.commands;
 
-import com.dticket.gui.TicketGuiBuilder;
-import com.dticket.manager.TicketManager;
-import com.dticket.model.Ticket;
-import com.dticket.util.Msg;
+import com.duapar.dticket.gui.TicketGuiBuilder;
+import com.duapar.dticket.manager.TicketManager;
+import com.duapar.dticket.model.Ticket;
+import com.duapar.dticket.util.Msg;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

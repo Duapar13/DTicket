@@ -1,8 +1,8 @@
-package com.dticket.service;
+package com.duapar.dticket.service;
 
-import com.dapi.service.TicketService;
-import com.dticket.manager.TicketManager;
-import com.dticket.model.TicketType;
+import com.duapar.dapi.service.TicketService;
+import com.duapar.dticket.manager.TicketManager;
+import com.duapar.dticket.model.TicketType;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

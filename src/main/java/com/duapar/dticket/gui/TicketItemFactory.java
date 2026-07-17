@@ -1,7 +1,7 @@
-package com.dticket.gui;
+package com.duapar.dticket.gui;
 
-import com.dticket.model.Ticket;
-import com.dticket.model.TicketStatus;
+import com.duapar.dticket.model.Ticket;
+import com.duapar.dticket.model.TicketStatus;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

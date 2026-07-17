@@ -1,4 +1,4 @@
-package com.dticket.discord;
+package com.duapar.dticket.discord;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;

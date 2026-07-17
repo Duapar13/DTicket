@@ -1,14 +1,14 @@
-package com.dticket;
+package com.duapar.dticket;
 
-import com.dticket.commands.DTicketCommand;
-import com.dticket.commands.TicketCommand;
-import com.dticket.discord.DiscordWebhook;
-import com.dticket.gui.GuiListener;
-import com.dticket.integration.DAPIHook;
-import com.dticket.manager.TicketManager;
-import com.dticket.storage.MySQLTicketStorage;
-import com.dticket.storage.TicketStorage;
-import com.dticket.storage.YamlTicketStorage;
+import com.duapar.dticket.commands.DTicketCommand;
+import com.duapar.dticket.commands.TicketCommand;
+import com.duapar.dticket.discord.DiscordWebhook;
+import com.duapar.dticket.gui.GuiListener;
+import com.duapar.dticket.integration.DAPIHook;
+import com.duapar.dticket.manager.TicketManager;
+import com.duapar.dticket.storage.MySQLTicketStorage;
+import com.duapar.dticket.storage.TicketStorage;
+import com.duapar.dticket.storage.YamlTicketStorage;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 

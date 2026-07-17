@@ -1,10 +1,10 @@
-package com.dticket.integration;
+package com.duapar.dticket.integration;
 
-import com.dapi.DAPI;
-import com.dapi.service.FactionService;
-import com.dapi.service.TicketService;
-import com.dticket.manager.TicketManager;
-import com.dticket.service.DTicketServiceImpl;
+import com.duapar.dapi.DAPI;
+import com.duapar.dapi.service.FactionService;
+import com.duapar.dapi.service.TicketService;
+import com.duapar.dticket.manager.TicketManager;
+import com.duapar.dticket.service.DTicketServiceImpl;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.UUID;

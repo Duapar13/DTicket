@@ -1,4 +1,4 @@
-package com.dticket.manager;
+package com.duapar.dticket.manager;
 
 /**
  * Erreur "attendue" (mauvais usage, permission, état invalide...) destinée à être

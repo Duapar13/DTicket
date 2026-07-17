@@ -1,4 +1,4 @@
-package com.dticket.util;
+package com.duapar.dticket.util;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

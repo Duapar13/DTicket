@@ -1,4 +1,4 @@
-package com.dticket.gui;
+package com.duapar.dticket.gui;
 
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;

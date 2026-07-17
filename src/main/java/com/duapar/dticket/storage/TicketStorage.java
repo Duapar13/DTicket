@@ -1,6 +1,6 @@
-package com.dticket.storage;
+package com.duapar.dticket.storage;
 
-import com.dticket.model.Ticket;
+import com.duapar.dticket.model.Ticket;
 
 import java.util.Map;
 

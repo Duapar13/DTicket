@@ -1,8 +1,8 @@
-package com.dticket.storage;
+package com.duapar.dticket.storage;
 
-import com.dticket.model.Ticket;
-import com.dticket.model.TicketStatus;
-import com.dticket.model.TicketType;
+import com.duapar.dticket.model.Ticket;
+import com.duapar.dticket.model.TicketStatus;
+import com.duapar.dticket.model.TicketType;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 

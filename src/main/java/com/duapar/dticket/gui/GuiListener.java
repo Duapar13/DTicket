@@ -1,11 +1,11 @@
-package com.dticket.gui;
+package com.duapar.dticket.gui;
 
-import com.dticket.discord.DiscordWebhook;
-import com.dticket.manager.TicketException;
-import com.dticket.manager.TicketManager;
-import com.dticket.model.Ticket;
-import com.dticket.model.TicketStatus;
-import com.dticket.util.Msg;
+import com.duapar.dticket.discord.DiscordWebhook;
+import com.duapar.dticket.manager.TicketException;
+import com.duapar.dticket.manager.TicketManager;
+import com.duapar.dticket.model.Ticket;
+import com.duapar.dticket.model.TicketStatus;
+import com.duapar.dticket.util.Msg;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
